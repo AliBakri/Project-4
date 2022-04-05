@@ -19,7 +19,7 @@
 
 ### Demo:
 
-[ChiDrink](https://gcodiac.github.io/Bootstrap-Bookina/)
+[Bookina](https://gcodiac.github.io/Bootstrap-Bookina/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
