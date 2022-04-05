@@ -1,0 +1,430 @@
+<!-- 
+// Author: Ali A
+// Date: 2018
+ -->
+<!DOCTYPE html>
+<html lang="en-GB">
+	<head>
+		<!-- Meta tags -->
+		<meta charset="UTF-8" />
+		<!-- Supported on small devices -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta name="author" content="Ali" />
+		<meta name="description" content="Super Amazing ChiDrink Ali's Website" />
+		<meta name="keywords" content="Chi,drink, delicious" />
+
+		<title>BOOKINA</title>
+
+		<!-- Font Awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+			integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<!-- Animate.css -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+		<!-- CUSTOM STYLE -->
+		<link rel="stylesheet" href="./css/style.css" />
+
+		<!--  INTERNAL STYLE  -->
+		<style type="text/css"></style>
+
+		<!-- stylesheets for older browsers -->
+		<!-- ie6/7 micro clearfix -->
+		<!--[if lte IE 7]>
+			<style>
+				.clearfix {
+					*zoom: 1;
+				}
+			</style>
+		<![endif]-->
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- HTML5 Shiv library, makes older versions of IE understand the newer HTML5 elements -->
+		<!--[if IE]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body data-spy="scroll" data-target="#main-nav" id="home">
+		<!--[if IE]>
+			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+		<![endif]-->
+
+		<!--========================NAVIGATION===================-->
+		<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top py-4" id="main-nav">
+			<div class="container">
+				<!-----------------------BRAND-------------------->
+				<a href="index.html" class="navbar-brand text-primary"><img src="./assets/img/mlogo2.png" width="50" height="50" alt="Website Logo" /></a>
+				<h3 class="d-inline align-center">Bo<span class="text-warning">okina</span></h3>
+				<!-----------------------TOGGLER-------------------->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<!-----------------NAVIGATION ITEMS--------------->
+				<div class="navbar-collapse collapse" id="navbar1">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+						<li class="nav-item"><a href="#chapters-section" class="nav-link">Discover</a></li>
+						<li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+						<li class="nav-item"><a href="#testmonial-section" class="nav-link">Testmonials</a></li>
+						<li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+						<button class="btn btn-outline-light btn-sm" data-target="#contactModal" data-toggle="modal">Contact Us</button>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!--./NAV  -->
+
+		<!--=====================HEAD SECTION====================-->
+		<header id="header">
+			<div class="overlay">
+				<!--=============SHOWCASE==========-->
+				<div id="showcase" class="container d-flex justify-content-around align-items-center">
+					<!-- -----CONTENT----- -->
+					<div id="content" class="text-center pr-md-5 text-center align-self-center">
+						<h1 class="display-4 animate__animated animate__backInDown">Unleash<span class=""> your Creativity</span>..</h1>
+						<p class="lead">Read the most anticipated book of the century</p>
+						<a href="" class="btn btn-outline-light" title="Read More">Read More</a>
+					</div>
+					<!-- ----IMAGE---- -->
+					<img class="img-fluid d-md-block d-none animate__animated animate__backInRight animate__slow" src="./assets/img/book.png" alt="" width="500" />
+				</div>
+				<!-- ./SHOWCASE -->
+			</div>
+			<!-- ./OVERLAY -->
+		</header>
+
+		<!--==========================MAIN=======================-->
+		<main>
+			<!--===================  FORM SECTION =======================-->
+			<section id="form" class="P-4 justify-content-center d-flex">
+				<!------FORM------->
+				<form class="d-none d-sm-flex justify-content-center container bg-light rounded border">
+					<input class="form-control" type="text" placeholder="Name" />
+					<input class="form-control" type="email" placeholder="Email" />
+					<select class="form-control">
+						<option value="">Amount</option>
+						<option value="">1</option>
+						<option value="">2</option>
+						<option value="">3</option>
+					</select>
+					<input type="submit" class="btn btn-outline-info" value="Order" />
+				</form>
+			</section>
+			<!--./FORM SECTION-->
+
+			<!--=================== CHAPTERS SECTION =======================-->
+			<section id="chapters-section" class="container my-2">
+				<!------ CHAPTERS SECTION HEADER ------------>
+				<header id="chapters-header" class="text-center py-3">
+					<h1 class="text-primary"><span class="text-info">Amazing</span> Content</h1>
+					<hr />
+				</header>
+
+				<!------ CHAPTERS SECTION CONTENT ----------->
+				<article id="chapters-content" class="row justify-content-around p-1">
+					<!-- CARD#1 -->
+					<div class="card bg-primary text-center text-white col-12 col-md-3">
+						<div class="card-body">
+							<i class="fa-brands fa-accusoft fa-4x pb-3"></i>
+							<h3 class="card-title">The Journey Begins</h3>
+							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, unde!</p>
+							<button class="btn btn-outline-light">Download a Sample</button>
+						</div>
+					</div>
+					<!-- CARD#2 -->
+					<div class="card bg-info text-center text-white col-12 col-md-3 my-3 m-md-0">
+						<div class="card-body">
+							<i class="fa-solid fa-hourglass-end fa-4x pb-3"></i>
+							<h3 class="card-title">The Mystery of Time</h3>
+							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, unde!</p>
+							<button class="btn btn-outline-light">Download a Sample</button>
+						</div>
+					</div>
+					<!-- CARD#3 -->
+					<div class="card bg-primary text-center text-white col-12 col-md-3">
+						<div class="card-body">
+							<i class="fa-solid fa-flag-checkered fa-4x pb-3"></i>
+							<h3 class="card-title">The Bitter End of Time</h3>
+							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, unde!</p>
+							<button class="btn btn-outline-light">Download a Sample</button>
+						</div>
+					</div>
+				</article>
+				<!-- ./CARDS CONTENT -->
+			</section>
+			<!--./CHAPTERS SECTION-->
+
+			<!--=================== AUTHOR SECTION =======================-->
+			<section id="about" class="text-center bg-light">
+				<div class="container">
+					<!------ ABOUT SECTION HEADER ------------>
+					<header id="chapters-header" class="text-center py-3">
+						<h1 class="text-primary"><span class="text-info">Meet</span> The Author</h1>
+					</header>
+					<!------ ABOUT SECTION CONTENT ------------>
+					<article class="row">
+						<!-- AUTHOR IMAGE -->
+						<aside id="about-img" class="col-12 col-md-6 mb-md-0 mb-3"></aside>
+						<!-- ACCORDION -->
+						<aside class="col-12 col-md-6">
+							<div id="accordion">
+								<div class="card">
+									<div class="card-header">
+										<h5 class="mb-0">
+											<div href="#collapse1" data-toggle="collapse" data-parent="#accordion"><i class="fas fa-arrow-circle-down"></i> Get Inspired</div>
+										</h5>
+									</div>
+
+									<div id="collapse1" class="collapse show">
+										<div class="card-body">
+											Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit odit laborum qui, debitis, sequi dolores nobis mollitia labore quasi earum laboriosam nihil cupiditate magnam iusto nostrum doloremque accusantium repudiandae expedita
+											autem et, repellendus suscipit consequatur! Alias, maiores amet sunt ab inventore illo, deleniti facilis consequatur tenetur nam pariatur fuga nisi!
+										</div>
+									</div>
+								</div>
+
+								<div class="card">
+									<div class="card-header">
+										<h5 class="mb-0">
+											<div href="#collapse2" data-toggle="collapse" data-parent="#accordion"><i class="fas fa-arrow-circle-down"></i> Gain The Knowledge</div>
+										</h5>
+									</div>
+
+									<div id="collapse2" class="collapse">
+										<div class="card-body">
+											Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit odit laborum qui, debitis, sequi dolores nobis mollitia labore quasi earum laboriosam nihil cupiditate magnam iusto nostrum doloremque accusantium repudiandae expedita
+											autem et, repellendus suscipit consequatur! Alias, maiores amet sunt ab inventore illo, deleniti facilis consequatur tenetur nam pariatur fuga nisi!
+										</div>
+									</div>
+								</div>
+
+								<div class="card">
+									<div class="card-header">
+										<h5 class="mb-0">
+											<div href="#collapse3" data-toggle="collapse" data-parent="#accordion"><i class="fas fa-arrow-circle-down"></i> Open Your Mind</div>
+										</h5>
+									</div>
+
+									<div id="collapse3" class="collapse">
+										<div class="card-body">
+											Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit odit laborum qui, debitis, sequi dolores nobis mollitia labore quasi earum laboriosam nihil cupiditate magnam iusto nostrum doloremque accusantium repudiandae expedita
+											autem et, repellendus suscipit consequatur! Alias, maiores amet sunt ab inventore illo, deleniti facilis consequatur tenetur nam pariatur fuga nisi!
+										</div>
+									</div>
+								</div>
+							</div>
+						</aside>
+					</article>
+					<!-- ./AUTHOR CONTENT -->
+				</div>
+				<!-- ./CONTAINER -->
+			</section>
+			<!--./AUTHOR SECTION-->
+
+			<!--=================== TESTMONIALS SECTION =======================-->
+			<section id="testmonial-section" class="mt-5">
+				<!------ TESTMONIALS SECTION HEADER ------------>
+				<header id="testmonial-header" class="text-center py-3">
+					<h1 class="text-primary"><span class="text-info">What the</span> Experts Say</h1>
+					<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias laborum numquam aperiam dolores a porro!</p>
+					<hr />
+				</header>
+
+				<!------ TESTMONIALS SECTION CONTENT ----------->
+				<article id="testmonial-content" class="my- text-center p-5">
+					<div class="container">
+						<div class="row">
+							<!-- PERSON1 -->
+							<div class="col-lg-3 col-md-6">
+								<div class="card">
+									<div class="card-body">
+										<img src="https://i.pravatar.cc/150?img=69" alt="" class="img-fluid rounded-circle w-50 mb-3" />
+										<h3>James Atkinson</h3>
+										<h5 class="text-muted">Book Author</h5>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed commodi nostrum, ab libero voluptas officia.</p>
+									</div>
+									<div class="card-footer">
+										<div class="d-flex justify-content-around">
+											<a href="http://facebook.com">
+												<i class="fab fa-facebook"></i>
+											</a>
+											<a href="http://twitter.com">
+												<i class="fab fa-twitter"></i>
+											</a>
+											<a href="http://instagram.com">
+												<i class="fab fa-instagram"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- ./PERSON1 -->
+
+							<!-- PERSON2 -->
+							<div class="col-lg-3 col-md-6 my-2 my-lg-0">
+								<div class="card">
+									<div class="card-body">
+										<img src="https://i.pravatar.cc/150?img=17" alt="" class="img-fluid rounded-circle w-50 mb-3" />
+										<h3>Alex jones</h3>
+										<h5 class="text-muted">Writer</h5>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed commodi nostrum, ab libero voluptas officia.</p>
+										<div class="d-flex justify-content-center">
+											<div class="p-4">
+												<a href="http://facebook.com">
+													<i class="fab fa-facebook"></i>
+												</a>
+											</div>
+											<div class="p-4">
+												<a href="http://twitter.com">
+													<i class="fab fa-twitter"></i>
+												</a>
+											</div>
+											<div class="p-4">
+												<a href="http://instagram.com">
+													<i class="fab fa-instagram"></i>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- ./PERSON2 -->
+
+							<!-- PERSON3 -->
+							<div class="col-lg-3 col-md-6 my-2 my-md-0">
+								<div class="card">
+									<div class="card-body">
+										<img src="https://i.pravatar.cc/150?img=64" alt="" class="img-fluid rounded-circle w-50 mb-3" />
+										<h3>John Doe</h3>
+										<h5 class="text-muted">Editor</h5>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed commodi nostrum, ab libero voluptas officia.</p>
+										<div class="d-flex justify-content-center">
+											<div class="p-4">
+												<a href="http://facebook.com">
+													<i class="fab fa-facebook"></i>
+												</a>
+											</div>
+											<div class="p-4">
+												<a href="http://twitter.com">
+													<i class="fab fa-twitter"></i>
+												</a>
+											</div>
+											<div class="p-4">
+												<a href="http://instagram.com">
+													<i class="fab fa-instagram"></i>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- ./PERSON3 -->
+
+							<!-- PERSON4 -->
+							<div class="col-lg-3 col-md-6">
+								<div class="card">
+									<div class="card-body">
+										<img src="https://i.pravatar.cc/150?img=33" alt="" class="img-fluid rounded-circle w-50 mb-3" />
+										<h3>Lee Huango</h3>
+										<h5 class="text-muted">Reader</h5>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed commodi nostrum, ab libero voluptas officia.</p>
+									</div>
+									<div class="card-footer">
+										<div class="d-flex justify-content-around">
+											<a href="http://facebook.com">
+												<i class="fab fa-facebook"></i>
+											</a>
+											<a href="http://twitter.com">
+												<i class="fab fa-twitter"></i>
+											</a>
+											<a href="http://instagram.com">
+												<i class="fab fa-instagram"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- ./PERSON4 -->
+						</div>
+					</div>
+				</article>
+			</section>
+			<!--./TESTMONIALS SECTION-->
+
+			<!--=================== CONTACT SECTION =======================-->
+			<section id="contact" class="py-5">
+				<div class="container">
+					<div class="row">
+						<article class="col-lg-7">
+							<h3>Contact Us</h3>
+							<p class="lead">Fill in the form to contact us</p>
+							<form>
+								<div class="input-group input-group-lg mb-3">
+									<div class="input-group-prepend">
+										<span class="input-group-text">
+											<i class="fas fa-user"></i>
+										</span>
+									</div>
+									<input type="text" class="form-control" placeholder="Name" />
+								</div>
+
+								<div class="input-group input-group-lg mb-3">
+									<div class="input-group-prepend">
+										<span class="input-group-text">
+											<i class="fas fa-envelope"></i>
+										</span>
+									</div>
+									<input type="text" class="form-control" placeholder="Email" />
+								</div>
+
+								<div class="input-group input-group-lg mb-3">
+									<div class="input-group-prepend">
+										<span class="input-group-text">
+											<i class="fas fa-pencil-alt"></i>
+										</span>
+									</div>
+									<textarea class="form-control" placeholder="Message" rows="5"></textarea>
+								</div>
+
+								<input type="submit" value="Submit" class="btn btn-primary btn-block btn-lg" />
+							</form>
+						</article>
+						<!-- MAP -->
+						<article id="map" class="col-lg-5 align-self-center mt-5" style="height: 400px"></article>
+					</div>
+				</div>
+			</section>
+			<!--./CONTANT SECTION-->
+		</main>
+		<!--./MAIN CONTENT SECTION-->
+
+		<!--=================== FOOTER =======================-->
+		<footer id="main-footer" class="bg-dark">
+			<div class="container d-sm-flex d-flex-column justify-content-around py-4">
+				<h3><span class="text-success">Boo</span><span class="text-warning">kina</span></h3>
+				<p class="text-muted">
+					Copyright &copy;Ali | 2018-
+					<script>
+						document.write(new Date().getFullYear());
+					</script>
+					All rights reserved
+				</p>
+			</div>
+		</footer>
+
+		<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+		<script src="./assets/js/main.js"></script>
+
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbLOYURFf4V1m7IGrFFTdWgTOccmv_3y4&callback=initMap&libraries=&v=weekly" async></script>
+	</body>
+</html>

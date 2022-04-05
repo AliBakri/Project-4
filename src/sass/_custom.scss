@@ -1,0 +1,96 @@
+$primary: rgb(35, 135, 235);
+$secondary: rgb(250, 250, 250);
+$overlay: rgba(35, 135, 235, 0.8);
+
+.navbar {
+	box-shadow: 2px 2px 5px $primary;
+	opacity: 0.9;
+	background: #fff;
+
+	.nav-item {
+		font-size: 1.4rem;
+		padding-right: 1.4rem;
+	}
+}
+/* HEADER 
+-----------------------*/
+#header {
+	background: url(../assets/img/mountains.jpg) no-repeat center center/cover;
+	position: relative;
+	height: 70vh;
+
+	// height: 500px;
+	color: #fff;
+
+	.overlay {
+		background-color: $overlay;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	#showcase {
+		height: 90%;
+	}
+}
+
+/* FORM 
+-----------------------*/
+#form {
+	position: relative;
+	height: 4rem;
+
+	form {
+		position: absolute;
+		padding: 2rem;
+		top: -4rem;
+		width: 70vh;
+		background-color: $overlay !important;
+	}
+	form input,
+	form select {
+		background-color: $primary;
+		color: white;
+	}
+	::placeholder {
+		color: white;
+	}
+}
+/* CHAPTERS 
+-----------------------*/
+#chapters-section {
+	hr {
+		width: 40%;
+		box-shadow: 2px 2px 5px rgb(205, 164, 164);
+	}
+	.card:hover {
+		box-shadow: 1px -1px 7px darkblue;
+		cursor: pointer;
+	}
+}
+/* TESTMONIALS 
+-----------------------*/
+#testmonial-section {
+	header {
+		width: 45vh;
+		margin: auto;
+	}
+	img {
+		margin-top: -3rem;
+	}
+	.card-body:hover {
+		cursor: pointer;
+		background-color: $secondary;
+	}
+}
+/* ABOUT 
+-----------------------*/
+#about {
+	padding: 1rem !important;
+	#about-img {
+		background: url(../assets/img/person3.jpg) no-repeat center center/cover;
+		border-radius: 5px;
+		height: 380px;
+	}
+}
